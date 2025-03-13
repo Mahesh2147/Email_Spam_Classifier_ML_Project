@@ -4,12 +4,12 @@ The project involves building a spam email classifier using machine learning tec
 The notebook follows a structured pipeline:
 
 1.Data Cleaning:
-```
+**
   Reads a dataset (spam (2).csv) containing labeled email messages.
 	Drops unnecessary columns and renames relevant ones (v1 → target, v2 → text).
 	Converts categorical labels (spam and ham) into numerical values using Label Encoding.
 	Removes missing values and duplicate entries.
-```
+**
 2.Exploratory Data Analysis (EDA):
 ```	
   Analyzes class distribution (imbalanced dataset with more "ham" emails).
