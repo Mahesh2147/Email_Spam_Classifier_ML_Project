@@ -33,14 +33,15 @@ The notebook follows a structured pipeline:
 ```
 Key Insights
 ```
-	The dataset is imbalanced, meaning the classifier needs techniques like resampling or weighting to improve 	spam detection.
+	The dataset is imbalanced, meaning the classifier needs techniques like resampling or weighting to improve spam detection.
 	Spam emails tend to be shorter but more keyword-dense compared to ham emails.
 	Naïve Bayes often performs well on text classification due to its probabilistic nature.
 	Feature engineering (removing stopwords, stemming) significantly impacts model performance.
 ```
 Conclusion
 ```
-	The best-performing model should be chosen based on a trade-off between precision and recall (since false positives and false negatives impact users differently).
+	The best-performing model should be chosen based on a trade-off between precision and recall (since false positives and
+	false negatives impact users differently).
 	Further improvements could involve deep learning models (LSTMs, Transformers) or ensemble techniques.
 	Additional real-world datasets would help improve generalization.
 	Deploying the model via a web app or API would make it usable for real-world applications.
