@@ -3,30 +3,30 @@
 The project involves building a spam email classifier using machine learning techniques. 
 The notebook follows a structured pipeline:
 
-1.Data Cleaning:
-
+1. Data Cleaning:
+```
 	Reads a dataset (spam (2).csv) containing labeled email messages.
 	Drops unnecessary columns and renames relevant ones (v1 → target, v2 → text).
 	Converts categorical labels (spam and ham) into numerical values using Label Encoding.
 	Removes missing values and duplicate entries.
-
-2.Exploratory Data Analysis (EDA):
+```
+2. Exploratory Data Analysis (EDA):
 ```	
-  Analyzes class distribution (imbalanced dataset with more "ham" emails).
+  	Analyzes class distribution (imbalanced dataset with more "ham" emails).
 	Uses visualizations like pie charts to show the proportion of spam vs. ham.
 	Computes basic statistics like message length, word count, and sentence count.
 ```
-3.Text Preprocessing:
+3. Text Preprocessing:
 ```
 	Tokenizes messages using NLTK.
 	Removes stopwords, punctuation, and applies stemming for feature extraction.
 ```
-4.Model Building:
+4. Model Building:
 ```
 	Uses TF-IDF vectorization to convert text into numerical form.
 	Trains multiple machine learning models, including Naïve Bayes, Logistic Regression, and Random Forest.
 ```
-5.Evaluation:
+5. Evaluation:
 ```
 	Assesses models using accuracy, precision, recall, and F1-score.
 	Compares different models to determine the best performer.
